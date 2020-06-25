@@ -1,0 +1,164 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+/*Globales*/
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.centrartexto{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+.textoazul h2{
+    color: rgb(61, 61, 216);
+}
+.boton{
+    padding: 1rem 6rem;
+    background-color: aqua;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 2rem;
+}
+/*Header*/
+.site-header{
+    padding: 2rem 0 2rem 0;
+}
+.barra{
+    background-color: pink;
+    
+}
+.barra-principal a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1.8rem;   
+}
+.barra-principal{
+    padding: 0;
+}
+@media(min-width: 768px) {
+    .barra-principal a{
+       display: inline-block;
+       align-items: center;
+    }
+    .barra-principal{
+       text-align: left;
+    }
+}
+.barra-principal a:hover{
+    background-color: #00B8E4;
+}
+/*Main*/
+@media(min-width: 768px) {
+    .conetenedor-principal{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contenido-principal{
+        flex-basis: 60%;
+    }
+}
+@media(min-width: 768px) {
+    .dividir-contenido{
+        display: flex;
+        justify-content: space-between;
+    }
+    .imagen{
+        flex-basis: 50%;
+    }
+    .texto{
+        flex-basis: calc(50% - 3rem);
+    }
+}
+@media(min-width: 768px) {
+    .barra-desplazadora{
+        flex-basis: calc(40% - 3rem);
+    }
+}
+.barra-desplazadora{
+    color:rgb(78, 78, 252);
+}
+.lista {
+    list-style: none;
+    padding: 0;
+}
+.barra-desplazadora ul li{
+    margin-bottom: 0rem;
+}
+.contenido{
+    margin-bottom: 4rem;
+}
+.entrada a{
+    text-decoration: none;
+    color:rgb(78, 78, 252);
+    text-align: left;
+    display: block;
+    padding: 1rem;
+}
+.entrada a:hover{
+    background-color: #00B8E4;
+    color: white;
+}
+
+.entrada a{
+    text-align: justify;
+}
+/*pie*/
+.pie{
+    color: white;
+}
+
+.footer-prin{
+    margin-bottom: 4rem;
+    display: block;
+    background-color: pink;
+}
+.footer-prin h3{
+    font-size: 2.4rem;
+}
+@media(min-width: 768px) {
+    .footer-prin{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sobrenosotrso{
+        flex-basis: 40%;
+    }
+    .menu-inferrior{
+        flex-basis: calc(60% -10rem);
+    }
+}
+.barra-secundaria{
+    padding: 0;
+}
+.barra-secundaria a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 2.0rem;
+}
+.alinear-texto-derecha{
+    text-align: right;
+}
+
+
+
+
+
