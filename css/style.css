@@ -42,6 +42,13 @@ img{
     color: white;
     display: inline-block;
     margin-top: 2rem;
+    margin-bottom: 1rem;
+    flex: 0 0 100%;
+}
+@media(min-width: 768px) {
+    .boton{
+        flex: 0 0 auto;
+    }
 }
 /*Header*/
 .site-header{
@@ -113,6 +120,7 @@ img{
 }
 .contenido{
     margin-bottom: 4rem;
+    border-bottom: 1px solid gray;
 }
 .entrada a{
     text-decoration: none;
