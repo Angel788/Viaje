@@ -6,7 +6,11 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 1.8rem;
     margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    padding-bottom: 0;
 }
+
 
 *, *:before, *:after {
     box-sizing: inherit;
@@ -15,8 +19,13 @@ body{
 .contenedor{
     max-width: 120rem;
     margin: 0 auto;
+    padding: 1rem;
 }
-
+@media(min-width: 768px) {
+    .contenedor{
+        padding: 0;
+    }
+}
 .centrartexto{
     text-align: center;
 }
@@ -40,7 +49,7 @@ img{
 }
 .barra{
     background-color: pink;
-    
+    padding: 0;
 }
 .barra-principal a{
     text-decoration: none;
@@ -123,15 +132,24 @@ img{
 /*pie*/
 .pie{
     color: white;
+    background-color: pink;
+
 }
 
 .footer-prin{
     margin-bottom: 4rem;
     display: block;
-    background-color: pink;
 }
 .footer-prin h3{
     font-size: 2.4rem;
+    display: block;
+    text-align: center;
+}
+@media(min-width: 768px) {
+    .footer-prin h3{
+        font-size: 2.4rem;
+        display: flex;
+    }
 }
 @media(min-width: 768px) {
     .footer-prin{
@@ -150,14 +168,44 @@ img{
 }
 .barra-secundaria a{
     color: white;
+    display: block;
     text-decoration: none;
     margin-right: 2rem;
     font-size: 2.0rem;
+    text-align: center;
+}
+@media(min-width: 768px) {
+    .barra-secundaria a{
+        text-align: right;
+        display: inline-block;
+    }
 }
 .alinear-texto-derecha{
     text-align: right;
 }
-
+.sobrenosotrso p{
+    text-align: center;
+}
+@media(min-width: 768px) {
+    .sobrenosotrso p{
+        text-align: left;
+    }
+}
+.footer-sec{
+    text-align: center;
+}
+.footer-sec{
+    font-size: 2.2rem;
+}
+.pie{
+    margin-bottom: 0em;
+    margin-block-end: 0;
+}
+.footer-sec{
+    background-color: rgb(253, 241, 243);
+    color: black;
+    padding: .1rem;
+}
 
 
 

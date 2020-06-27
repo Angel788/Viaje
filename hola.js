@@ -1,13 +1,13 @@
 var esacuaman = true;
 console.log(esacuaman);
-var rtu = /** @class */ (function () {
-    function rtu() {
+var tu = /** @class */ (function () {
+    function tu() {
     }
-    rtu.prototype.gt4 = function (fyty) {
+    tu.prototype.gt4 = function (fyty) {
         return fyty;
     };
-    rtu.prototype.imprimir = function () {
+    tu.prototype.imprimir = function () {
         console.log(this.gt4("Hola"));
     };
-    return rtu;
+    return tu;
 }());
